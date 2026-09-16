@@ -3,31 +3,190 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TYDTU</title>
+    <title>Things Your Daughters Told Us</title>
     <meta
       name="description"
-      content="TYDTU is a lightweight static site published with GitHub Pages."
+      content="Things Your Daughters Told Us is a podcast with Drs. Beth Savage and Virginia Cylke."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Outfit:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="page-shell" aria-labelledby="page-title">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">GitHub Pages</p>
-          <h1 id="page-title">TYDTU</h1>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Things Your Daughters Told Us home">
+        <span>TYDTU</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#episodes">Episodes</a>
+        <a href="#hosts">Hosts</a>
+        <a href="#support">Support</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <img
+          class="hero-art"
+          src="./assets/tydtu-cover-cream-books.png"
+          alt="Podcast cover art for Things Your Daughters Told Us"
+        />
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <p class="eyebrow">A conversation-forward podcast</p>
+          <h1 id="page-title">
+            <span>Things Your</span>
+            <span>Daughters</span>
+            <span>Told Us</span>
+          </h1>
           <p class="lede">
-            A small static site scaffold, ready to publish from GitHub Actions.
+            Drs. Beth Savage and Virginia Cylke bring decades of teaching,
+            mentoring, and listening into a show about the things people learn,
+            say, rethink, and carry with them.
           </p>
+          <div class="hero-actions" aria-label="Podcast actions">
+            <a class="button primary" href="#listen">Listen soon</a>
+            <a class="button secondary" href="#support">Support the show</a>
+          </div>
         </div>
-        <div class="signal" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+      </section>
+
+      <section class="listen-band" id="listen" aria-labelledby="listen-title">
+        <div class="section-inner listen-layout">
+          <div>
+            <p class="section-kicker">Where to find us</p>
+            <h2 id="listen-title">Listen wherever the story lands next.</h2>
+          </div>
+          <div class="listen-links" aria-label="Listening and social links">
+            <a href="#" aria-label="YouTube link coming soon">YouTube</a>
+            <a href="#" aria-label="Spotify link coming soon">Spotify</a>
+            <a href="#" aria-label="Apple Podcasts link coming soon">Apple</a>
+            <a
+              href="https://www.patreon.com/cw/ThingsYourDaughtersToldUs"
+              aria-label="Visit Things Your Daughters Told Us on Patreon"
+            >
+              Patreon
+            </a>
+            <a href="#" aria-label="Instagram link coming soon">Instagram</a>
+            <a href="#" aria-label="TikTok link coming soon">TikTok</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section" aria-labelledby="about-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">About the show</p>
+            <h2 id="about-title">Smart, warm, and a little nosy in the best way.</h2>
+          </div>
+          <div class="copy-stack">
+            <p>
+              This space can hold the polished show description once the final
+              positioning is settled. For now, it frames the podcast as candid,
+              thoughtful conversation with room for humor, teaching stories,
+              guest episodes, listener questions, and behind-the-scenes notes.
+            </p>
+            <p>
+              Use this paragraph for the practical promise: what listeners get,
+              how often episodes drop, and why subscribing is worth their time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="episodes-section" id="episodes" aria-labelledby="episodes-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Start here</p>
+            <h2 id="episodes-title">Featured episodes</h2>
+          </div>
+          <div class="episode-grid">
+            <article class="episode-card">
+              <p class="episode-label">Episode 01</p>
+              <h3>Trailer or launch episode title</h3>
+              <p>
+                A short introduction to the show, the hosts, and the questions
+                that brought this conversation to the microphone.
+              </p>
+              <a href="#">Coming soon</a>
+            </article>
+            <article class="episode-card">
+              <p class="episode-label">Episode 02</p>
+              <h3>Conversation topic placeholder</h3>
+              <p>
+                A polished episode summary can live here once the first slate
+                of conversations is ready.
+              </p>
+              <a href="#">Coming soon</a>
+            </article>
+            <article class="episode-card">
+              <p class="episode-label">Bonus</p>
+              <h3>Patreon extra or listener Q&amp;A</h3>
+              <p>
+                A flexible space for subscriber-only extras, bonus notes, or
+                the first listener question segment.
+              </p>
+              <a href="https://www.patreon.com/cw/ThingsYourDaughtersToldUs">
+                Visit Patreon
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="hosts-section" id="hosts" aria-labelledby="hosts-title">
+        <div class="section-inner two-column">
+          <div>
+            <p class="section-kicker">Hosts</p>
+            <h2 id="hosts-title">Beth Savage and Virginia Cylke</h2>
+          </div>
+          <div class="host-grid">
+            <article class="host-card">
+              <h3>Dr. Beth Savage</h3>
+              <p>
+                A host bio can introduce Beth's teaching background, recurring
+                point of view, and the questions she brings to the microphone.
+              </p>
+            </article>
+            <article class="host-card">
+              <h3>Dr. Virginia Cylke</h3>
+              <p>
+                A host bio can introduce Virginia's teaching background,
+                recurring point of view, and the questions she brings to the
+                microphone.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="support-section" id="support" aria-labelledby="support-title">
+        <div class="section-inner support-layout">
+          <div>
+            <p class="section-kicker">Support</p>
+            <h2 id="support-title">Help keep the conversation going.</h2>
+            <p>
+              Join us on Patreon for show updates, bonus notes, and the pieces
+              that keep the conversation moving between episodes.
+            </p>
+          </div>
+          <a
+            class="button primary"
+            href="https://www.patreon.com/cw/ThingsYourDaughtersToldUs"
+          >
+            Visit Patreon
+          </a>
         </div>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>Things Your Daughters Told Us</p>
+      <p>New episodes, notes, and extras coming soon.</p>
+    </footer>
   </body>
 </html>
